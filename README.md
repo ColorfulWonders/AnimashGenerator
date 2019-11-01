@@ -1,1 +1,1 @@
-https://colorfulwonders.github.io/animashgenerator/
+colorfulwonders.github.io/animashgenerator/
