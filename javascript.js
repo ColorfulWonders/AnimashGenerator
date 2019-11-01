@@ -2,7 +2,19 @@
 
 
 var characters = [
-  {name: "Nala", age: "both", gender: "female"}, {name: "Kiara", age: "both", gender: "female"}, {name: "Sarafina", age: "adult", gender: "female"},
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  {name: "Adult Nala", age: "adult", gender: "female", role: "main", species: "big cat"}, {name: "Young Nala", age: "young", gender: "female", role: "main", species: "big cat"}, {name: "Kiara", age: "both", gender: "female"}, {name: "Sarafina", age: "adult", gender: "female"},
   {name: "Sarabi", age: "adult", gender: "female"}, {name: "Vitani", age: "both", gender: "female"}, {name: "Zira", age: "adult", gender: "female"},
   {name: "Aleu", age: "both", gender: "female"}, {name: "Jenna", age: "adult", gender: "female"}, {name: "Faline", age: "both", gender: "female"},
   {name: "Vixey", age: "adult", gender: "female"}, {name: "Lady", age: "both", gender: "female"}, {name: "Angel", age: "young", gender: "female"},
