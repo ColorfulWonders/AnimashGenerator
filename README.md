@@ -1,1 +1,1 @@
-I have no idea what I'm going lolllll
+https://colorfulwonders.github.io/animashgenerator/
