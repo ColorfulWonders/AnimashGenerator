@@ -4,24 +4,38 @@
 var characters = [
   {name: "Adult Nala", age: "adult", gender: "female", role: "main", species: "big cat"}, {name: "Young Nala", age: "young", gender: "female", role: "main", species: "big cat"},  {name: "Adult Kiara", age: "adult", gender: "female", role: "main", species: "big cat"}, 
   {name: "Young Kiara", age: "young", gender: "female", role: "main", species: "big cat"}, {name: "Sarafina", age: "adult", gender: "female", role: "background", species: "big cat"}, {name: "Sarabi", age: "adult", gender: "female", role: "side", species: "big cat"}, 
+  {name: "Adult Vitani", age: "adult", gender: "female", role: "side", species: "big cat"}, {name: "Young Vitani", age: "young", gender: "female", role: "side", species: "big cat"}, {name: "Zira", age: "adult", gender: "female", role: "main", species: "big cat"},
+  {name: "Adult Aleu", age: "adult", gender: "female", role: "main", species: "canine"}, {name: "Young Aleu", age: "young", gender: "female", role: "main", species: "canine"}, {name: "Jenna", age: "adult", gender: "female", role: "main", species: "canine"}, 
+  {name: "Adult Faline", age: "adult", gender: "female", role:"side", species: "hoofmam"}, {name: "Young Faline", age: "young", gender: "female", role:"side", species: "hoofmam"}, {name: "Vixey", age: "adult", gender: "female", role:"side", species: "misc"}, 
+  {name: "Adult Lady", age: "adult", gender: "female", role:"main", species: "canine"}, {name: "Young Lady", age: "young", gender: "female", role:"main", species: "canine"}, {name: "Angel", age: "young", gender: "female", role:"main", species: "canine"},
+  {name: "Duchess", age: "adult", gender: "female", role:"main", species: "domecat"}, {name: "Perdita", age: "adult", gender: "female", role:"main", species: "canine"}, {name: "Dixie", age: "adult", gender: "female", role:"main", species: "canine"},
+  {name: "Rita", age: "adult", gender: "female", role:"main", species: "canine"}, {name: "Sasha", age: "adult", gender: "female", role:"main", species: "canine"}, {name: "Georgette", age: "adult", gender: "female", role:"main", species: "canine"},
+  {name: "Nita", age: "adult", gender: "female", role:"main", species: "misc"}, 
+  {name: "Adult Simba", age: "adult", gender: "male", role:"main", species: "big cat"}, {name: "Young Simba", age: "young", gender: "male", role:"main", species: "big cat"}, {name: "Adult Kovu", age: "adult", gender: "male", role:"main", species: "big cat"},
+  {name: "Young Kovu", age: "young", gender: "male", role:"main", species: "big cat"}, {name: "Nuka", age: "adult", gender: "male", role:"side", species: "big cat"}, {name: "Mufasa", age: "adult", gender: "male", role:"side", species: "big cat"}, 
+  {name: "Kenai", age: "adult", gender: "male", role:"main", species: "misc"}, {name: "Koda", age: "young", gender: "male", role:"main", species: "misc"}, {name: "The Great Prince", age: "adult", gender: "male", role:"main", species: "hoofmam"}, 
+  {name: "Adult Bambi", age: "adult", gender: "male", role:"main", species: "hoofmam"}, {name: "Young Bambi", age: "young", gender: "male", role:"main", species: "hoofmam"}, {name: "Adult Spirit", age: "adult", gender: "male", role:"main", species: "hoofmam"}, 
+  {name: "Young Spirit", age: "young", gender: "male", role:"main", species: "hoofmam"}, {name: "Adult Tod", age: "adult", gender: "male", role:"main", species: "misc"}, {name: "Young Tod", age: "young", gender: "male", role:"main", species: "misc"},
   
-  
-  
-  {name: "Vitani", age: "both", gender: "female"}, {name: "Zira", age: "adult", gender: "female"},
-  {name: "Aleu", age: "both", gender: "female"}, {name: "Jenna", age: "adult", gender: "female"}, {name: "Faline", age: "both", gender: "female"},
-  {name: "Vixey", age: "adult", gender: "female"}, {name: "Lady", age: "both", gender: "female"}, {name: "Angel", age: "young", gender: "female"},
-  {name: "Duchess", age: "adult", gender: "female"}, {name: "Perdita", age: "adult", gender: "female"}, {name: "Dixie", age: "adult", gender: "female"},
-  {name: "Rita", age: "adult", gender: "female"}, {name: "Sasha", age: "adult", gender: "female"}, {name: "Georgette", age: "adult", gender: "female"},
-  {name: "Nita", age: "adult", gender: "female"}, {name: "Simba", age: "both", gender: "male"}, {name: "Kovu", age: "both", gender: "male"},
-  {name: "Nuka", age: "adult", gender: "male"}, {name: "Mufasa", age: "adult", gender: "male"}, {name: "Kenai", age: "adult", gender: "male"},
-  {name: "Koda", age: "young", gender: "male"}, {name: "The Great Prince", age: "adult", gender: "male"}, {name: "Bambi", age: "both", gender: "male"},
-  {name: "Spirit", age: "both", gender: "male"}, {name: "Tod", age: "both", gender: "male"}, {name: "Copper", age: "both", gender: "male"},
-  {name: "Balto", age: "adult", gender: "male"}, {name: "Steele", age: "adult", gender: "male"}, {name: "Thomas O'Malley", age: "adult", gender: "male"},
-  {name: "Pongo", age: "adult", gender: "male"}, {name: "Patch", age: "young", gender: "male"}, {name: "Charlie", age: "adult", gender: "male"},
-  {name: "Itchy", age: "adult", gender: "male"}, {name: "Dodger", age: "adult", gender: "male"}, {name: "Tito", age: "adult", gender: "male"},
-  {name: "Buster", age: "adult", gender: "male"}, {name: "Cash", age: "adult", gender: "male"}, {name: "Tramp", age: "adult", gender: "male"},
-  {name: "Francis", age: "adult", gender: "male"}, {name: "Scamp", age: "young", gender: "male"}, {name: "Bagheera", age: "adult", gender: "male"},
-  {name: "Oliver", age: "young", gender: "male"}];
+  {name: "Adult Copper", age: "adult", gender: "male", role:"main", species: "canine"},
+  {name: "Young Copper", age: "adult", gender: "male", role:"main", species: "canine"},
+ 
+  {name: "Balto", age: "adult", gender: "male", role:"main", species: "canine"}, 
+  {name: "Steele", age: "adult", gender: "male", role:"main", species: "canine"}, 
+  {name: "Thomas O'Malley", age: "adult", gender: "male", role:"main", species: "canine"},
+  {name: "Pongo", age: "adult", gender: "male", role:"main", species: "canine"}, 
+  {name: "Patch", age: "young", gender: "male", role:"main", species: "canine"}, 
+  {name: "Charlie", age: "adult", gender: "male", role:"main", species: "canine"},
+  {name: "Itchy", age: "adult", gender: "male", role:"main", species: "canine"}, 
+  {name: "Dodger", age: "adult", gender: "male", role:"main", species: "canine"}, 
+  {name: "Tito", age: "adult", gender: "male", role:"main", species: "canine"},
+  {name: "Buster", age: "adult", gender: "male", role:"main", species: "canine"}, 
+  {name: "Cash", age: "adult", gender: "male", role:"main", species: "canine"}, 
+  {name: "Tramp", age: "adult", gender: "male", role:"main", species: "canine"},
+  {name: "Francis", age: "adult", gender: "male", role:"main", species: "canine"}, 
+  {name: "Scamp", age: "young", gender: "male", role:"main", species: "canine"}, 
+  {name: "Bagheera", age: "adult", gender: "male", role:"main", species: "canine"},
+  {name: "Oliver", age: "young", gender: "male", role:"main", species: "canine"}];
 
 
 
