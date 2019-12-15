@@ -41,13 +41,72 @@ var characters = [
 
 
 var youngchars = characters.filter(function (el) {
-    return (el.age === "young" || el.age === "both");     
+    return (el.age === "young");     
 });
 
 var adultchars = characters.filter(function (el) {
-    return (el.age === "adult" || el.age === "both");     
+    return (el.age === "adult");     
 });
   
+var mchars = characters.filter(function (el)) {
+    return (el.gender === "male");                               
+                               
+}};
+
+var fchars = characters.filter(function (el)) {
+    return (el.gender === "female");                               
+                               
+}};
+
+var mainchars = characters.filter(function (el)) {
+    return (el.role === "main");                               
+                               
+}};
+
+var sidechars = characters.filter(function (el)) {
+    return (el.role === "side");                               
+                               
+}};
+
+var bgchars = characters.filter(function (el)) {
+    return (el.role === "background");                               
+                               
+}};
+
+var caninechars = characters.filter(function (el)) {
+    return (el.species === "canine");                               
+                                                                                       
+}};
+
+var domecatchars = characters.filter(function (el)) {
+    return (el.species === "domecat");                               
+                               
+}};
+
+var bigcatchars = characters.filter(function (el)) {
+    return (el.species === "bigcat");                               
+                               
+}};
+
+var hoofmamchars = characters.filter(function (el)) {
+    return (el.species === "hoofmam");                               
+                               
+}};
+
+var smallmamchars = characters.filter(function (el)) {
+    return (el.species === "smallmam");                               
+                               
+}};
+
+var birdchars = characters.filter(function (el)) {
+    return (el.species === "bird");                               
+                               
+}};
+
+var miscchars = characters.filter(function (el)) {
+    return (el.species === "misc");                               
+                               
+}};
 
 var youngm = characters.filter(function (el) {
   return (el.gender === "male" && (el.age === "young" || el.age === "both"));
