@@ -32,7 +32,6 @@ var characters = [
   {name: "Mufasa", age: "adult", gender: "male", role:"side", species: "big cat"}, 
   {name: "Kenai", age: "adult", gender: "male", role:"main", species: "misc"}, 
   {name: "Koda", age: "young", gender: "male", role:"main", species: "misc"}, 
-  {name: "The Great Prince", age: "adult", gender: "male", role:"main", species: "hoofmam"}, 
   {name: "Adult Bambi", age: "adult", gender: "male", role:"main", species: "hoofmam"}, 
   {name: "Young Bambi", age: "young", gender: "male", role:"main", species: "hoofmam"}, 
   {name: "Adult Spirit", age: "adult", gender: "male", role:"main", species: "hoofmam"}, 
@@ -56,7 +55,46 @@ var characters = [
   {name: "Francis", age: "adult", gender: "male", role:"main", species: "domecat"}, 
   {name: "Scamp", age: "young", gender: "male", role:"main", species: "canine"}, 
   {name: "Bagheera", age: "adult", gender: "male", role:"main", species: "bigcat"},
-  {name: "Oliver", age: "young", gender: "male", role:"main", species: "domecat"}];
+  {name: "Oliver", age: "young", gender: "male", role:"main", species: "domecat"},
+  {name: "Zazu", age: "adult", gender: "male", role: "side", species: "bird"},
+  {name: "Timon", age: "adult", gender: "male", role: "side", species: "smallmam"},
+  {name: "Pumba", age: "adult", gender: "male", role: "side", species: "hoofmam"},
+  {name: "Rafiki", age: "adult", gender: "male", role: "side", species: "x"},
+  {name: "Kody", age: "adult", gender: "male", role: "main", species: "canine"},
+  {name: "Dusty", age: "adult", gender: "female", role: "side", species: "canine"},
+  {name: "Kirby", age: "adult", gender: "male", role: "side", species: "canine"},
+  {name: "Boris", age: "adult", gender: "male", role: "side", species: "bird"},
+  {name: "Jock", age: "adult", gender: "male", role: "side", species: "canine"},
+  {name: "Trusty", age: "adult", gender: "male", role: "side", species: "canine"},
+  {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},  
+  
+  
+];
+
+balto: keltag, star, other guy, evil wolf, elder wolf, spirit mouse, spirit wolf,
+bambi: bambis mom, mina, grand owl, flower, thumper, thumpers sisters, mis bunny, mama rabbit, ms skunk
+fox and hound: evil dad doggo, big mama, comic birds, disxies cat friend, twin strays, old stray
+Latt: scamps sisters, sheepdog, ruby, red puond doge
+Aristocrats: goose ladies, horse, mouse, jazz cat, hippy cat
+101 dals: farm animals, thunder bold, lil lightniing
+brother bear: mouse dudes,
+oac: francis, tito??, einstien, rosco, other mean doge
+felidae: exoctic cat, felicity,
+home on the range: all of em
+Spirit: mama horse, other horses i guess?
+adgth: flo, annabelle, belladona, carface, killer
+american tial: all of em
+secret of nimh: all of em
+rescusers: all of em
+Tarzan: all of em
+Dumbo: all of em
+Cat from panocio
+Horse from mulan
+Emo garfield
+
+
+
+
 
 var youngchars = characters.filter(function (el) {
     return (el.age === "young");     
