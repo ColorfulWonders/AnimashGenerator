@@ -133,8 +133,8 @@ var characters = [
   {name: "Berlioz", age: "young", gender: "male", role: "main", species: "domecat"},
   {name: "Marie", age: "young", gender: "female", role: "main", species: "domecat"},
   {name: "Toulouse", age: "young", gender: "male", role: "main", species: "domecat"},
-  {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},
-  {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},
+  {name: "Tug", age: "adult", gender: "male", role: "side", species: "misc"},
+  {name: "Rutt and Tuke", age: "adult", gender: "male", role: "side", species: "hoofmam"},
   {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},
   {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},
   {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},
@@ -147,7 +147,6 @@ var characters = [
   
 ];
 
-brother bear: mouse dudes,
 oac: francis, tito??, einstien, rosco, other mean doge
 felidae: exoctic cat, felicity,
 home on the range: all of em
