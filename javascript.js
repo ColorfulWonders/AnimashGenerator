@@ -19,7 +19,8 @@ var characters = [
   {name: "Angel", age: "young", gender: "female", role:"main", species: "canine"},
   {name: "Duchess", age: "adult", gender: "female", role:"main", species: "domecat"}, 
   {name: "Perdita", age: "adult", gender: "female", role:"main", species: "canine"}, 
-  {name: "Dixie", age: "adult", gender: "female", role:"main", species: "canine"},
+  {name: "Dixie (FATH2)", age: "adult", gender: "female", role:"main", species: "canine"},
+  {name: "Dixie (Balto)", age: "adult", gender: "female", role:"side", species: "canine"},
   {name: "Rita", age: "adult", gender: "female", role:"main", species: "canine"}, 
   {name: "Sasha", age: "adult", gender: "female", role:"main", species: "canine"}, 
   {name: "Georgette", age: "adult", gender: "female", role:"main", species: "canine"},
@@ -52,37 +53,105 @@ var characters = [
   {name: "Buster", age: "adult", gender: "male", role:"main", species: "canine"}, 
   {name: "Cash", age: "adult", gender: "male", role:"main", species: "canine"}, 
   {name: "Tramp", age: "adult", gender: "male", role:"main", species: "canine"}, 
-  {name: "Francis", age: "adult", gender: "male", role:"main", species: "domecat"}, 
+  {name: "Francis (Felidae)", age: "adult", gender: "male", role:"main", species: "domecat"}, 
+  {name: "Francis (OAC)", age: "adult", gender: "male", role:"side", species: "canine"}, 
   {name: "Scamp", age: "young", gender: "male", role:"main", species: "canine"}, 
   {name: "Bagheera", age: "adult", gender: "male", role:"main", species: "bigcat"},
   {name: "Oliver", age: "young", gender: "male", role:"main", species: "domecat"},
   {name: "Zazu", age: "adult", gender: "male", role: "side", species: "bird"},
   {name: "Timon", age: "adult", gender: "male", role: "side", species: "smallmam"},
   {name: "Pumba", age: "adult", gender: "male", role: "side", species: "hoofmam"},
-  {name: "Rafiki", age: "adult", gender: "male", role: "side", species: "x"},
-  {name: "Kody", age: "adult", gender: "male", role: "main", species: "canine"},
+  {name: "Rafiki", age: "adult", gender: "male", role: "side", species: "misc"},
+  {name: "Kodi", age: "adult", gender: "male", role: "main", species: "canine"},
   {name: "Dusty", age: "adult", gender: "female", role: "side", species: "canine"},
   {name: "Kirby", age: "adult", gender: "male", role: "side", species: "canine"},
-  {name: "Boris", age: "adult", gender: "male", role: "side", species: "bird"},
+  {name: "Borisv(Balto)", age: "adult", gender: "male", role: "side", species: "bird"},
   {name: "Jock", age: "adult", gender: "male", role: "side", species: "canine"},
   {name: "Trusty", age: "adult", gender: "male", role: "side", species: "canine"},
   {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},  
-  
+  {name: "Kaltag", age: "adult", gender: "male", role: "side", species: "canine"},    
+  {name: "Background wolf", age: "adult", gender: "female, male", role: "background", species: "canine"},  
+  {name: "Niju", age: "adult", gender: "male", role: "side", species: "canine"},  
+  {name: "Sylvie", age: "adult", gender: "female", role: "side", species: "canine"},  
+  {name: "Muk", age: "adult", gender: "male", role: "side", species: "misc"},  
+  {name: "Luk", age: "adult", gender: "male", role: "side", species: "misc"},  
+  {name: "Aniu", age: "adult", gender: "female", role: "side", species: "canine"},       
+  {name: "Nava", age: "elder", gender: "male", role: "side", species: "canine"},
+  {name: "Mel", age: "adult", gender: "male", role: "side", species: "canine"},
+  {name: "Dipsy", age: "adult", gender: "female", role: "side", species: "canine"},
+  {name: "Nikki", age: "adult", gender: "male", role: "side", species: "canine"},
+  {name: "Ralph", age: "adult", gender: "male", role: "side", species: "canine"},
+  {name: "Star", age: "adult", gender: "male", role: "side", species: "canine"},
+  {name: "Muru", age: "adult", gender: "male", role: "side", species: "smallmam"},
+  {name: "Stella", age: "adult", gender: "female", role: "side", species: "bird"},
+  {name: "Ralph", age: "adult", gender: "male", role: "side", species: "canine"},
+  {name: "Bambi's mom", age: "adult", gender: "female", role: "side", species: "hoofmam"},
+  {name: "Mena", age: "adult", gender: "female", role: "side", species: "hoofmam"},
+  {name: "Friend Owl", age: "adult", gender: "male", role: "side", species: "bird"},
+  {name: "Young Thumper", age: "young", gender: "male", role: "side", species: "smallmam"},
+  {name: "Adult Thumper", age: "adult", gender: "male", role: "side", species: "smallmam"},
+  {name: "Young Flower", age: "young", gender: "male", role: "side", species: "smallmam"},
+  {name: "Adult Flower", age: "adult", gender: "male", role: "side", species: "smallmam"},
+  {name: "Mrs. Hare (Thumpers mom)", age: "adult", gender: "female", role: "side", species: "smallmam"},
+  {name: "Miss Bunny", age: "adult", gender: "female", role: "side", species: "smallmam"},
+  {name: "Thumper's sisters", age: "young", gender: "female", role: "side", species: "smallmam"},
+  {name: "Miss Skunk", age: "adult", gender: "female", role: "side", species: "smallmam"},
+  {name: "Chief", age: "adult", gender: "male", role: "side", species: "canine"},
+  {name: "Sparky", age: "adult", gender: "male", role: "side", species: "canine"},
+  {name: "Francois", age: "adult", gender: "male", role: "side", species: "canine"},
+  {name: "Mooch", age: "adult", gender: "male", role: "side", species: "canine"},
+  {name: "Scamps's sisters", age: "young", gender: "female", role: "side", species: "canine"},  
+  {name: "Big Mama", age: "adult", gender: "female", role: "side", species: "bird"},
+  {name: "Dinky", age: "adult", gender: "male", role: "side", species: "bird"},
+  {name: "Boomer", age: "adult", gender: "male", role: "side", species: "bird"},
+  {name: "Waylon and Floyd", age: "adult", gender: "female", role: "side", species: "canine"},
+  {name: "Granny Rose", age: "elder", gender: "female", role: "side", species: "canine"},
+  {name: "Zelda", age: "adult", gender: "female", role: "side", species: "domecat"},
+  {name: "Colonel", age: "adult", gender: "male", role: "side", species: "canine"},
+  {name: "Sergeant Tibbs", age: "adult", gender: "male", role: "side", species: "domecat"},
+  {name: "Captain", age: "adult", gender: "male", role: "side", species: "hoofmam"},
+  {name: "Thunderbolt", age: "adult", gender: "male", role: "main", species: "canine"},
+  {name: "Lil' Lightning", age: "adult", gender: "male", role: "side", species: "canine"},
+  {name: "Rolly", age: "young", gender: "male", role: "side", species: "canine"},
+  {name: "Penny", age: "young", gender: "female", role: "side", species: "canine"},
+  {name: "Max", age: "adult", gender: "male", role: "side", species: "canine"},
+  {name: "Flo", age: "adult", gender: "female", role: "side", species: "canine"},
+  {name: "Annabelle", age: "adult", gender: "female", role: "side", species: "canine"},
+  {name: "Belladona", age: "adult", gender: "female", role: "side", species: "canine"},
+  {name: "Carface", age: "adult", gender: "male", role: "side", species: "canine"},
+  {name: "Killer", age: "adult", gender: "male", role: "side", species: "canine"},
+  {name: "Toughy", age: "adult", gender: "male", role: "side", species: "canine"},
+  {name: "Bull", age: "adult", gender: "male", role: "side", species: "canine"},
+  {name: "Boris (LATT)", age: "adult", gender: "male", role: "side", species: "canine"},
+  {name: "Mr. Busy", age: "adult", gender: "male", role: "side", species: "smallmam"},
+  {name: "Uncle Waldo", age: "adult", gender: "male", role: "side", species: "bird"},
+  {name: "Abigail and Amelia Gabble", age: "adult", gender: "female", role: "side", species: "bird"},
+  {name: "Scat Cat", age: "adult", gender: "male", role: "side", species: "domecat"},
+  {name: "Hit Cat", age: "adult", gender: "male", role: "side", species: "domecat"},
+  {name: "Roquefort", age: "adult", gender: "male", role: "side", species: "smallmam"},
+  {name: "Frou-Frou", age: "adult", gender: "female", role: "side", species: "hoofmam"},
+  {name: "Berlioz", age: "young", gender: "male", role: "main", species: "domecat"},
+  {name: "Marie", age: "young", gender: "female", role: "main", species: "domecat"},
+  {name: "Toulouse", age: "young", gender: "male", role: "main", species: "domecat"},
+  {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},
+  {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},
+  {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},
+  {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},
+  {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},
+  {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},
+  {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},
+  {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},
+  {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},
+  {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},
+  {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},
   
 ];
 
-balto: keltag, star, other guy, evil wolf, elder wolf, spirit mouse, spirit wolf,
-bambi: bambis mom, mina, grand owl, flower, thumper, thumpers sisters, mis bunny, mama rabbit, ms skunk
-fox and hound: evil dad doggo, big mama, comic birds, disxies cat friend, twin strays, old stray
-Latt: scamps sisters, sheepdog, ruby, red puond doge
-Aristocrats: goose ladies, horse, mouse, jazz cat, hippy cat
-101 dals: farm animals, thunder bold, lil lightniing
 brother bear: mouse dudes,
 oac: francis, tito??, einstien, rosco, other mean doge
 felidae: exoctic cat, felicity,
 home on the range: all of em
 Spirit: mama horse, other horses i guess?
-adgth: flo, annabelle, belladona, carface, killer
 american tial: all of em
 secret of nimh: all of em
 rescusers: all of em
@@ -91,9 +160,9 @@ Dumbo: all of em
 Cat from panocio
 Horse from mulan
 Emo garfield
-
-
-
+max tlm
+add bg puppy from start of latt2
+group/duo characters are grouped together
 
 
 var youngchars = characters.filter(function (el) {
