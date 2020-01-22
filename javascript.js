@@ -136,18 +136,17 @@ var characters = [
   {name: "Tug", age: "adult", gender: "male", role: "side", species: "misc"},
   {name: "Rutt and Tuke", age: "adult", gender: "male", role: "side", species: "hoofmam"},
   {name: "Anda and Kata", age: "adult", gender: "female", role: "side", species: "hoofmam"},
-  {name: "Nita", age: "adult", gender: "female", role: "side", species: "misc"},
-  {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},
-  {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},
-  {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},
-  {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},
-  {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},
-  {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},
-  {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},
+  {name: "Einstein", age: "adult", gender: "male", role: "side", species: "canine"},  
+  {name: "Roscoe and DeSoto", age: "adult", gender: "male", role: "side", species: "canine"},  
+  {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},  
+  {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},  
+  {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},  
   
 ];
 
-oac: francis, tito??, einstien, rosco, other mean doge
+
+
+
 felidae: exoctic cat, felicity,
 home on the range: all of em
 Spirit: mama horse, other horses i guess?
