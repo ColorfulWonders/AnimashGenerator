@@ -137,7 +137,10 @@ var characters = [
   {name: "Rutt and Tuke", age: "adult", gender: "male", role: "side", species: "hoofmam"},
   {name: "Anda and Kata", age: "adult", gender: "female", role: "side", species: "hoofmam"},
   {name: "Einstein", age: "adult", gender: "male", role: "side", species: "canine"},  
-  {name: "Roscoe and DeSoto", age: "adult", gender: "male", role: "side", species: "canine"},  
+  {name: "Roscoe and DeSoto", age: "adult", gender: "male", role: "side", species: "canine"},      
+  {name: "Totem Fox", age: "adult", gender: "female", role: "side", species: "misc"},  
+  {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},  
+  {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},  
   {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},  
   {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},  
   {name: "Peg", age: "adult", gender: "female", role: "side", species: "canine"},  
@@ -145,6 +148,12 @@ var characters = [
 ];
 
 
+  {name: "Maggie", age: "adult", gender: "female", role: "main", species: "hoofmam"},  
+  {name: "Grace", age: "adult", gender: "female", role: "main", species: "hoofmam"},  
+  {name: "Mrs. Calloway", age: "adult", gender: "female", role: "main", species: "hoofmam"},  
+  {name: "Rusty", age: "elder", gender: "male", role: "side", species: "canine"},  
+  {name: "Lucky Jack", age: "adult", gender: "male", role: "side", species: "smallmam"},  
+  {name: "Buck", age: "adult", gender: "male", role: "side", species: "hoofmam"},
 
 
 felidae: exoctic cat, felicity,
@@ -161,6 +170,16 @@ Emo garfield
 max tlm
 add bg puppy from start of latt2
 group/duo characters are grouped together
+
+
+// [adjective] [character] and [character] with [coloring] coloring and [effects] effects.
+
+//adjective: romantic, cute, plantonic, fun, familial, (parent child), (siblings), emtional, sad, angsty, funny, happy, scary, dramatic, seasonal, 
+//colorings: raw, red, orange, yellow, light green, dark green, light blue, dark blue, purple, brown, hot pink, pink, pastel, neon, warm, cool, neutrual, gold, silver, gray, black and white, black and red, black and pink, black and blue, rainbow, 
+//effects: no, mirror, zoom,  candy style effects,
+
+
+
 
 
 var youngchars = characters.filter(function (el) {
