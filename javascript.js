@@ -172,11 +172,12 @@ add bg puppy from start of latt2
 group/duo characters are grouped together
 
 
-// [adjective] [character] and [character] with [coloring] coloring and [effects] effects.
+// [adjective] [character] and [character] with [coloring] coloring, [effects] effects and [music] music
 
-//adjective: romantic, cute, plantonic, fun, familial, (parent child), (siblings), emtional, sad, angsty, funny, happy, scary, dramatic, seasonal, 
-//colorings: raw, red, orange, yellow, light green, dark green, light blue, dark blue, purple, brown, hot pink, pink, pastel, neon, warm, cool, neutrual, gold, silver, gray, black and white, black and red, black and pink, black and blue, rainbow, 
-//effects: no, mirror, zoom,  candy style effects,
+//adjective: romantic, cute, polyamourus, plantonic, fun, familial, (parent child), (siblings), emtional, sad, angsty, humorous, happy, scary, dramatic, seasonal, adventurous, magical, classy, floral, phycodeslic, city-themed, nature-themed, candy-themed, food-themed, video game-themed, board game-themed, beach-themed, ocean-themed, space-themed, cartoon-themed, anime-themed, fashion-themed, 70s-themed, 80s-themed, 90s-themed, 2000s-themed 
+//colorings: raw, red, orange, yellow, light green, dark green, light blue, dark blue, purple, brown, hot pink, pink, pastel, neon, warm, cool, neutrual, gold, silver, gray, black and white, rainbow,
+//effects: no, mirror, zoom, color inverting, candy style, vhs, film roll, glitch, letterbox, high contrast, chroma key, time-bending, cookie cutter, blur, glow, smoke, cartoon, sparkle, half tone, shaking, tile, threshold, pixelate, texture, wave
+//music: no, instramental, non-english lanuage, acapeela, video game, movie score, soundtrack, experimental, Lo-fi, blues, R&B, country, EDM, disco, dubstep, hip hop, trap, crunk, techno, nightcore, folk, jazz, pop, punk, classical, psychedelic, emo, rock, indie, ska, nightcore, parody
 
 
 
