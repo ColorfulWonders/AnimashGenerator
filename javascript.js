@@ -171,16 +171,59 @@ max tlm
 add bg puppy from start of latt2
 group/duo characters are grouped together
 
+// animash oc idea genorater:
+//base: [character], sexuality: [sexuality], color pallette: [pallete], markings: [markings], accesories: [acc], alignment: [align], personality: [adjectives], (optional) frankenstiened traits: [character]
 
-// [adjective] [character] and [character] with [coloring] coloring, [effects] effects and [music] music
+//sexuality:
+straight^0.5
+gay
+lesbian
+bi
+pan
 
-//adjective: romantic, cute, polyamourus, plantonic, fun, familial, (parent child), (siblings), emtional, sad, angsty, humorous, happy, scary, dramatic, seasonal, adventurous, magical, classy, floral, phycodeslic, city-themed, nature-themed, candy-themed, food-themed, video game-themed, board game-themed, beach-themed, ocean-themed, space-themed, cartoon-themed, anime-themed, fashion-themed, 70s-themed, 80s-themed, 90s-themed, 2000s-themed 
-//colorings: raw, red, orange, yellow, light green, dark green, light blue, dark blue, purple, brown, hot pink, pink, pastel, neon, warm, cool, neutrual, gold, silver, gray, black and white, rainbow,
-//effects: no, mirror, zoom, color inverting, candy style, vhs, film roll, glitch, letterbox, high contrast, chroma key, time-bending, cookie cutter, blur, glow, smoke, cartoon, sparkle, half tone, shaking, tile, threshold, pixelate, texture, wave
-//music: no, instramental, non-english lanuage, acapeela, video game, movie score, soundtrack, experimental, Lo-fi, blues, R&B, country, EDM, disco, dubstep, hip hop, trap, crunk, techno, nightcore, folk, jazz, pop, punk, classical, psychedelic, emo, rock, indie, ska, nightcore, parody
+// markings:
+none^2
+lighter underbelly
+darker underbelly
+"sock" markings on paws
+stripes
+spots
+rings
 
+//accesories:
+none^2
+hair tuft
+bandana
+collar
+scar
+  scar over eye
+  scar on leg
+  scar on tail
+  scar on body
+  
+//alignment:
+  neutral good
+  true neutral
+  neutral evil
+  chaotic good
+  choatic neutral
+  choatic evil
+  lawful good
+  lawful neutral
+  lawful evil
+  
+  
+//special powers/abilities?:
+  no^2
+  yes^0.5
+    super strangth
+    healing powers
+    idk lol
 
+yet another genorater from me! This one is for ppl who like making their own ppersonalized animash characters! The genorater randomly picks a base and some character info for you, I made sure not too include too much info tho, so ppl can still use thier own ideas and whatnots! 
 
+Obvs you can follow the prompt as closely or as losley as you want but I want to point out that frankenstiening/splicing characters together is totally optional! I personally prefer it bc it make my character more unquic and less of just a recolor of the origanal characters, but not everyones like that and you don't have to do that part if you don't want to.
+  
 
 
 var youngchars = characters.filter(function (el) {
